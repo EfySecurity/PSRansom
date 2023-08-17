@@ -1,8 +1,12 @@
+<div align="center">
+  <img src="https://github.com/EfySecurity/Coding-Tool/blob/main/icons8-base-64.gif" alt="Project Logo">
+</div>
+
 ## PSRansom - Simulação de Ransomware com C2
 
 PSRansom ​​é um script escrito em PowerShell que permite simular o funcionamento de um Ransomware. É um script que você pode utilizar por exemplo em uma apresentação de conscientização sobre os riscos e o impacto que um ransomware pode causar.
 
-🔴 O uso indevido desta técnica é de sua total responsabilidade e está sujeito as penalizações prevista na Lei 12.737.
+🔴 O uso indevido desta técnica é de sua total responsabilidade e está sujeito as penalizações prevista na [Lei 12.737](https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2012/lei/l12737.htm).
 
 ## Como Usar
 
@@ -97,6 +101,32 @@ Contrate uma consultoria especializada para avaliar seu ambiente de forma indepe
 Leve a segurança dos dados da sua empresa e de seus clientes a sério!
 
 
+# Simulação de Ransomware com C2 - Projeto de Estudo
+
+Este projeto é uma simulação de ransomware com um servidor de comando e controle (C2) e é destinado apenas para fins educacionais e de aprendizado. Ele não deve ser usado de forma maliciosa ou prejudicial.
+
+## Fonte Original
+
+Este projeto foi inspirado por um tutorial e código fonte fornecido por [JoelGMSec](https://github.com/JoelGMSec). Certifique-se de verificar o tutorial original para obter mais informações detalhadas.
+
+## Sobre o Projeto
+
+O objetivo deste projeto é permitir que os estudantes de segurança cibernética compreendam como um ransomware pode funcionar, bem como aprender a se defender contra esse tipo de ameaça. É importante lembrar que a criação e disseminação de malware são atividades ilegais e prejudiciais.
+
+## Pré-requisitos
+
+Certifique-se de ter o ambiente adequado configurado para executar este projeto de forma segura. Você deve estar ciente de que este projeto simula um ransomware, e executá-lo em um ambiente de produção resultará em perda de dados.
+
+## Contribuição e Responsabilidade
+
+Este projeto é apenas para fins educacionais e não deve ser usado para atividades maliciosas. Os contribuidores deste projeto não se responsabilizam pelo uso inadequado ou ilegal do código fornecido.
+
+## Licença
+
+Este projeto está sob a [Licença MIT](LICENSE).
+
+---
+**AVISO:** O uso deste projeto para fins maliciosos ou ilegais é estritamente proibido. Este projeto foi criado apenas para fins educacionais.
 
 
 
