@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://github.com/EfySecurity/Coding-Tool/blob/main/icons8-base-64.gif" alt="Project Logo">
+  <img src="https://github.com/JoelGMSec/PSRansom/blob/main/PSRansom.png" alt="PSRansom.png">
 </div>
 
 ## PSRansom - Simulação de Ransomware com C2
